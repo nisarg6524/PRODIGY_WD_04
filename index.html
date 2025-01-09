@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nisarg Patel</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+
+            <img src="profile-photo.jpg.jpeg" alt="Nisarg Patel" class="profile-photo">
+            <p>
+                Hi, I’m Nisarg Patel! <br> I’m a passionate web developer focused on creating user-friendly and innovative websites. 
+                My expertise lies in crafting responsive designs, optimizing website performance, and ensuring exceptional user experiences. 
+                I started my journey in web development during college while pursuing a degree in Computer Science. 
+                Over the years, I’ve worked on projects ranging from personal blogs to full-scale e-commerce platforms. 
+            </p>
+        </div>
+    </section>
+    
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+
+            <img src="project1.jpg.png" alt="Project 1 Screenshot" class="project-photo">
+            <p>The Café Now Project is a modern initiative aimed at revitalizing and reimagining café spaces to align with contemporary needs. It typically focuses on creating flexible, inclusive environments that cater to diverse audiences, blending technology, sustainability, and community engagement.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            
+            <img src="project2.jpg.png" alt="Project 2 Screenshot" class="project-photo">
+            <p>The know your mentor is designed to provide a user-friendly platform for students to anonymously submit 
+                their feedback on various aspects of teaching, including but not limited to, clarity of instruction, 
+                effectiveness of delivery, approachability, and overall satisfaction with the course. This 
+                feedback is then compiled and presented to faculty members in a structured format, allowing 
+                them to reflect on their strengths and areas for improvement.</p>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" rows="5" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nisarg Patel. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
